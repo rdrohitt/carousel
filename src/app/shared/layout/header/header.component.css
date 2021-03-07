@@ -1,0 +1,53 @@
+.customize{
+    padding: 10px 150px;
+}
+nav{
+    height: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+.nav-item{
+  margin: 0 25px;
+}
+
+#navbarDropdown{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.topNav{
+  height: 8px;
+  background-color: black;
+}
+
+.navbar-brand{
+  margin-top: 25px;
+}
+
+.navbar-brand img{
+  height: 100px;
+}
+
+.fa-search{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+@media (min-width: 480px){
+    .navbar-toggler{
+      margin-top: -60px;
+    }
+  }
+
+.status{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(255,192,0);
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}  
